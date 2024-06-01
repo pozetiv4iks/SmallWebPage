@@ -98,7 +98,7 @@ li{
     position: absolute;
 }
 
-.secondBlock{
+.title{
     position: absolute;
     width: 892px;
     height: 422px;
@@ -106,18 +106,25 @@ li{
     left: 120px;
     gap: 0px;
     opacity: 0px;
-}
-
-h1{
-    position: absolute;
-    width: 892px;
-
-    gap: 0px;
-    opacity: 0px;  
     font-family: Aleo;
     font-size: 80px;
     font-weight: 700;
     line-height: 96px;
-    text-align: left;
-      
+    text-align: left;    
+}
+
+.preTitle{
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    top: 346px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;    
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;    
 }
