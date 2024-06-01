@@ -500,7 +500,7 @@ li{
     height: 59px;
     top: 2172px;
     left: 607px;
-    padding: 10px 32px 10px 32px;
+    margin: 10px 32px 10px 32px;
     gap: 10px;
     border-radius: 10px ;
     opacity: 0px;
@@ -521,16 +521,17 @@ li{
     height: 40px;
     padding: 8.75px 2.5px 8.75px 2.5px;
     gap: 0px;
-    opacity: 0px;  
-
+    opacity: 0px;    
+    top: 8.75px;
+    left: 2.5px;
 }
 
 .arrow{
     position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 8.75px;
-    left: 2.5px;
+    width: 35px;
+    /* height: 22.5px; */
+    
+    
     gap: 0px;
     opacity: 0px;
     
