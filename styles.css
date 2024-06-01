@@ -5,9 +5,6 @@
     color: white;
 }
 
-body{
-    overflow: hidden;
-}
 
 header{
     display: flex;
@@ -367,11 +364,17 @@ li{
 .destinations{
     position: absolute;
     width: 2520px;
-    height: 1042px;
-    top: 1189px;
+    height: 800px;
+    top: 1288px;
     left: -540px;
-    gap: 0px;
+    gap: 60px;
     opacity: 0px;
+    font-family: "Red Hat Text";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42.34px;
+    text-align: left;
+    
 }
 
 .popular{
@@ -388,4 +391,64 @@ li{
     line-height: 52.92px;
     text-align: left;
     color: #f2785c;
+}
+
+.spainIMG{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;    
+}
+
+.spain{
+    position: absolute;
+    width: 95px;
+    height: 42px;
+    top: 718px;
+    left: 15px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.japanIMG{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 860px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;    
+}
+
+.japan{
+    position: absolute;
+    width: 108px;
+    height: 42px;
+    top: 718px;
+    left: 875px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.usaIMG{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 1720px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;    
+}
+
+.usa{
+    position: absolute;
+    width: 66px;
+    height: 42px;
+    top: 718px;
+    left: 1735px;
+    gap: 0px;
+    opacity: 0px;    
 }
