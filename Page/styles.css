@@ -97,3 +97,27 @@ li{
     z-index: -1; 
     position: absolute;
 }
+
+.secondBlock{
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    top: 122px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+h1{
+    position: absolute;
+    width: 892px;
+
+    gap: 0px;
+    opacity: 0px;  
+    font-family: Aleo;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+      
+}
