@@ -126,5 +126,19 @@ li{
     font-style: italic;
     font-weight: 700;
     line-height: 24px;
-    text-align: left;    
+    text-align: left; 
+    white-space: nowrap;    
+}
+
+.likeDo{
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    top: 416px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;  
+    background: #FFFFFFB2;  
+    border:none
 }
