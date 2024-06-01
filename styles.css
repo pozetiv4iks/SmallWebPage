@@ -536,3 +536,363 @@ li{
     opacity: 0px;
     
 }
+
+.secondOl{
+    position: absolute;
+    width: 1442px;
+    height: 1331px;
+    top: 2404px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: -1;    
+}
+
+.Stories{
+    width: 1201px;
+    height: 1322px;
+    top: 2311px;
+    left: 119px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 1;    
+}
+
+.travel-stories{
+    position: absolute;
+    white-space: nowrap;
+    width: 335px;
+    height: 53px;
+    top: 2311px;
+    left: 552px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Red Hat Text';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52.92px;
+    text-align: left;
+    color:#F2785C;
+}
+
+.story1{
+    white-space: nowrap;
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    top: 2444px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 16px ;
+    opacity: 0px;
+    
+}
+
+.text1{
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    top: 66px;
+    left: 440px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#0D606F;
+}
+
+a{
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;   
+    color: #0D606F; 
+}
+
+.photosTitle{
+    position: absolute;
+    white-space: nowrap;
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 440px;
+    gap: 0px;
+    opacity: 0px;  
+    color: #0D606F;  
+    font-family: Aleo;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;    
+}
+
+.river{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    gap: 0px;
+    border-radius: 16px ;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #0D606F;
+}
+
+.story2{
+    white-space: nowrap;
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    top: 280px;
+    gap: 0px;
+    border-radius: 16px ;
+    opacity: 0px;   
+    color:#0D606F;
+
+}
+
+.parkTitle{
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    top: 2444px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color:#0D606F;        
+}
+
+.text2{
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    top: 2510px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#0D606F;
+}
+
+.road{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 2444px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #0D606F;
+}
+
+.story3{
+    white-space: nowrap;
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    top: 3004px;
+    gap: 0px;
+    border-radius: 16px ;
+    opacity: 0px;
+    color:#0D606F;
+}
+
+.text3{
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    top: 66px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#0D606F;
+}
+
+.mountains{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #0D606F;    
+}
+
+.mountainsTitle{
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #0D606F;       
+}
+
+.story4{
+    white-space: nowrap;
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    left: 119px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px; 
+    color:#0D606F;
+
+}
+
+.text4{
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    top: 2510px;
+    left: 440px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#0D606F;
+}
+
+.bus{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 2444px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #0D606F; 
+}
+
+.journeyTitle{
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    top: 2444px;
+    left: 440px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color:#0D606F;       
+}
+
+.f4{
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    top: 3574px;
+    left: 608px;
+    padding: 10px 32px 10px 32px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    box-shadow: 0px 2px 3px 0px #0D606F29;
+    box-shadow: 0px 0px 3px 0px #0D606F14;
+    border: none;
+    background: #0D606F;
+    font-family: "Red Hat Text";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    /* text-align: left; */
+    
+}
+
+.secondOverlay{
+    width: 1442px;
+    height: 1331px;
+    top: 2404px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.bg{
+    position: absolute;
+    width: 1445px;
+    height: 1270px;
+    top: 2404px;
+    gap: 0px;
+    opacity: 0px;    
+    background: #FFFFFFB2;
+}
+
+footer{
+    position: absolute;
+    width: 728.96px;
+    height: 33.65px;
+    top: 3688px;
+    left: 590px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.end{
+    position: absolute;
+    width: 260px;
+    height: 21px;
+    top: 7px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Red Hat Text';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;      
+}
+
+.socialMedia{
+    display: flex;
+    position: absolute;
+    width: 140.96px;
+    height: 33.65px;
+    left: 588px; 
+    gap: 20px;
+    opacity: 0px;
+    
+}
+
+.inst{
+    width: 33.65px;
+    height: 33.65px;  
+}
+
+.tube{
+    width: 33.65px;
+    height: 33.65px;
+
+}
+
+.twit{
+    width: 33.65px;
+    height: 33.65px;   
+}
