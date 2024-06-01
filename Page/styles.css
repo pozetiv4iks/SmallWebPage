@@ -226,6 +226,7 @@ li{
 }
 
 .frame24{
+    position: absolute;
     width: 247px;
     height: 154px;
     gap: 0px;
@@ -264,7 +265,12 @@ li{
 }
 
 .frame26{
-    
+    position: absolute;
+    width: 317px;
+    height: 154px;
+    left: 860px;
+    gap: 0px;
+    opacity: 0px;    
 }
 
 .rectangle15{
