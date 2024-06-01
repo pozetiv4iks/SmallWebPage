@@ -234,6 +234,7 @@ li{
 }
 
 .rectangle13{
+    border-radius: 16px;
     position: absolute;
     width: 100px;
     height: 100px;
@@ -242,6 +243,15 @@ li{
     opacity: 0px;    
     background: #F2785C;
 
+}
+
+.bike{
+    width: 50px;
+    height: 45px;
+    margin-top: 28px;
+    margin-left: 25px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .frame25{
@@ -254,6 +264,7 @@ li{
 }
 
 .rectangle14{
+    border-radius: 16px;
     position: absolute;
     width: 100px;
     height: 100px;
@@ -261,7 +272,15 @@ li{
     gap: 0px;
     opacity: 0px;    
     background: #F2785C;
+}
 
+.days{
+    width: 52px;
+    height: 52px;
+    margin-top: 24px;
+    margin-left: 24px;
+    gap: 0px;
+    opacity: 0px;    
 }
 
 .frame26{
@@ -274,6 +293,7 @@ li{
 }
 
 .rectangle15{
+    border-radius: 16px;
     position: absolute;
     width: 100px;
     height: 100px;
@@ -281,5 +301,13 @@ li{
     gap: 0px;
     opacity: 0px;    
     background: #F2785C;
+}
 
+.airplane{
+    width: 60px;
+    height: 45px;
+    margin-top: 28px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;    
 }
