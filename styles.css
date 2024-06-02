@@ -912,73 +912,20 @@ footer{
     display: none;
 }
 
+.howItwork{
+    display: none;
+}
+
+.shadow{
+    display: none;
+}
+
 @media(max-width: 520px){
     *{
         width:390px;
         margin: 0;
         padding: 0;
         color: white;
-    }
-
-    .login{
-        display: none;
-    }
-
-    .tripplan{
-        position: absolute;
-        width: 390px;
-        height: 251px;
-        gap: 0px;
-        opacity: 0px;        
-    }
-
-    .start{
-        white-space: nowrap;
-        position: absolute;
-        width: 92px;
-        height: 30px;
-        top: 151px;
-        left: 274px;
-        padding: 10px 32px 10px 32px;
-        gap: 10px;
-        border-radius: 10px;
-        opacity: 0px;
-        font-family: 'Red Hat Text';
-        font-size: 11px;
-        font-weight: 500;
-        line-height: 14.55px;
-        text-align: left;
-        
-    }
-
-    .likeDo{
-        width: 360px;
-        height: 48px;
-        top: 142px;
-        left: 15px;
-        gap: 0px;
-        border-radius: 16px;
-        opacity: 0px;     
-        background: #FFFFFFB2;   
-    }
-
-    .likeDo::placeholder{
-        position: absolute;
-        width: 226.01px;
-        height: 11.12px;
-        top: 158.17px;
-        left: 31.55px;
-        gap: 0px;
-        opacity: 0px;        
-        gap: 0px;
-        opacity: 0px;
-        font-family: Aleo;
-        font-size: 24px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: 28.8px;
-        text-align: left;    
-        color: #F2785C;       
     }
 
     header{
@@ -989,52 +936,13 @@ footer{
         left: 16px;
         padding: 0px 4px 0px 0px;
         gap: 0px;
-        opacity: 0px;        
-        background:none ;    
-        box-shadow: none;   
-    }
-
-    .vector{
-        margin:0;
-        position: absolute;
-        width: 29px;
-        height: 30px;
-        top: 2px;
-        gap: 0px;
-        opacity: 0px;           
-    }
-
-    .logo{
-        display: none;
-    }
-
-    .overlay{
-        display: none;
-    }
-
-    .smart-overlay{
-        display: block;
-        width: 390px;
-        height: 251px;
-        gap: 0px;
-        opacity: 0px;        
-    }
-
-    nav{
-        display: none;
-    }
-
-    .title{
-        display: none;
-    }
-
-    .preTitle{
-        display: none;
+        opacity: 0px;
+        background: none;
+        box-shadow: none;        
     }
 
     .headDiv{
         display: block;
-        position: absolute;
         width: 390px;
         height: 84.64px;
         top: -43.54px;
@@ -1042,7 +950,18 @@ footer{
         gap: 0px;
         opacity: 0px;
         background: #F2785CB2;
-        box-shadow: 0px 4px 4px 0px #0D606F80;
+        box-shadow: 0px 4px 4px 0px #0D606F80; 
+    }
+
+    .vector{
+        position: absolute;
+        width: 29px;
+        height: 30px;
+        top: 2px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+        margin: 0;        
     }
 
     .line{
@@ -1053,62 +972,236 @@ footer{
         left: 319px;
         /* padding: 8px 4.38px 8px 4.38px; */
         gap: 0px;
+        opacity: 0px;        
+    }
+
+    .tripplan{
+        width: 390px;
+        height: 251px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .smart-overlay{
+        display: block;
+        position: absolute;
+        width: 390px;
+        height: 251px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .shadow{
+        display: block;
+        position: absolute;
+        width: 390px;
+        height: 251px;
+        gap: 0px;
         opacity: 0px;
+        background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%);        
+    }
+
+    .likeDo{
+        position: absolute;
+        width: 360px;
+        height: 48px;
+        top: 142px;
+        left: 15px;
+        gap: 0px;        
+        border-radius: 16px;
+        opacity: 0px;  
+        background: #FFFFFFB2;  
+        border:none;
+    }
+    
+    .likeDo::placeholder{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 226.01px;
+        /* height: 11.12px; */
+        /* top: 158.17px; */
+        left: 31.55px;
+        gap: 0px;
+        opacity: 0px;        
+        font-family: Aleo;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: -16.8px;
+        text-align: left;            
+        color: #F2785C;
+    }
+   
+    .start{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap;
+        width: 92px;
+        height: 30px;
+        top: 151px;
+        left: 274px;
+        padding: 10px 13px 10px 13px;
+        gap: 10px;     
+        border-radius: 10px;
+        opacity: 0px;
+        border: none;
+        background: #0D606F;
+        box-shadow: 0px 2px 3px 0px #0D606F29;
+        box-shadow: 0px 0px 3px 0px #0D606F14;        
+        font-family:'Red Hat Text';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.55px;
+        text-align: left;
         
     }
 
-    .steps, .frames{
+    .howItwork{
+        display: block;
         position: absolute;
         width: 360px;
         height: 153px;
         top: 271px;
         left: 15px;
         gap: 0px;
-        opacity: 0px;        
+        opacity: 0px;
     }
 
-    .step{
-       position: absolute;
-       width: 214px;
-       height: 19px;
-       /* top: 271px; */
-       left: 88px;
-       gap: 0px;
-       opacity: 0px;
-       font-family: 'Red Hat Text';
-       font-size: 14px;
-       font-weight: 500;
-       line-height: 18.52px;
-       text-align: left;          
+    .step2{
+        position: absolute;
+        width: 214px;
+        height: 19px;
+        /* top: 271px; */
+        left: 88px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: 'Red Hat Text';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.52px;
+        text-align: left;
+        color:#F2785C
     }
 
-    .frame24{
+    .frame262{
         position: absolute;
         width: 70px;
         height: 70px;
-        top: 311px;
-        left: 15px;
+        top: 40px;
+        left: 305px;
         gap: 0px;
         opacity: 0px;        
     }
 
-    .frame25{
+    .rectangle152{
         position: absolute;
         width: 70px;
         height: 70px;
-        top: 310px;
+        gap: 0px;
+        border-radius: 16px;
+        opacity: 0px;
+        background: #F2785C;
+    }
+
+    .airplane2{
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        top: 20px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+
+    .frame252{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 40px;
         left: 160px;
         gap: 0px;
         opacity: 0px;        
     }
 
-    .frame26{
+    .rectangle142{
         position: absolute;
         width: 70px;
         height: 70px;
-        top: 311px;
-        left: 305px;
+        gap: 0px;
+        border-radius: 16px;
+        opacity: 0px;
+        background: #F2785C;        
+    }
+
+    .days2{
+        display:block;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 18px;
+        left: 18px;
         gap: 0px;
         opacity: 0px;        
+    }
+
+    .frame242{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 40px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;          
+    }
+
+    .bike2{
+        position: absolute;
+        width: 35px;
+        height: 31.5px;
+        top: 19px;
+        left: 18px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .rectangle132{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        gap: 0px;
+        border-radius: 16px ;
+        opacity: 0px;
+        background: #F2785C;        
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .overlay{
+        display: none;
+    } 
+    
+    .steps{
+        display: none;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .preTitle{
+        display: none;
     }
 }
