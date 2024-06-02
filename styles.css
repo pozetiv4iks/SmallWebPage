@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    
 }
 
 
@@ -363,8 +364,9 @@ li{
 }
 
 .destinations{
+    overflow: hidden;
     position: absolute;
-    width: 2520px;
+    width: 1980px;
     height: 800px;
     top: 1288px;
     left: -540px;
