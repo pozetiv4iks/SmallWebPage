@@ -899,3 +899,43 @@ footer{
     width: 33.65px;
     height: 33.65px;   
 }
+
+.smart-overlay{
+    display: none;
+}
+
+@media(max-width: 520px){
+    header{
+        position: absolute;
+        width: 358px;
+        height: 32px;
+        top: 43px;
+        left: 16px;
+        padding: 0px 4px 0px 0px;
+        gap: 0px;
+        opacity: 0px; 
+        background:none ;    
+        box-shadow: none;   
+    }
+
+    .vector{
+        position: absolute;
+        width: 29px;
+        height: 30px;
+        top: 2px;
+        gap: 0px;
+        opacity: 0px;           
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .overlay{
+        display: none;
+    }
+
+    .smart-overlay{
+        display: block;
+    }
+}
