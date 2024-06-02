@@ -904,7 +904,83 @@ footer{
     display: none;
 }
 
+.headDiv{
+    display: none;
+}
+
+.line{
+    display: none;
+}
+
 @media(max-width: 520px){
+    *{
+        width:390px;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .tripplan{
+        position: absolute;
+        width: 390px;
+        height: 251px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .start{
+        white-space: nowrap;
+        position: absolute;
+        width: 92px;
+        height: 30px;
+        top: 151px;
+        left: 274px;
+        padding: 10px 32px 10px 32px;
+        gap: 10px;
+        border-radius: 10px;
+        opacity: 0px;
+        font-family: 'Red Hat Text';
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 14.55px;
+        text-align: left;
+        
+    }
+
+    .likeDo{
+        width: 360px;
+        height: 48px;
+        top: 142px;
+        left: 15px;
+        gap: 0px;
+        border-radius: 16px;
+        opacity: 0px;     
+        background: #FFFFFFB2;   
+    }
+
+    .likeDo::placeholder{
+        position: absolute;
+        width: 226.01px;
+        height: 11.12px;
+        top: 158.17px;
+        left: 31.55px;
+        gap: 0px;
+        opacity: 0px;        
+        gap: 0px;
+        opacity: 0px;
+        font-family: Aleo;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;    
+        color: #F2785C;       
+    }
+
     header{
         position: absolute;
         width: 358px;
@@ -913,12 +989,13 @@ footer{
         left: 16px;
         padding: 0px 4px 0px 0px;
         gap: 0px;
-        opacity: 0px; 
+        opacity: 0px;        
         background:none ;    
         box-shadow: none;   
     }
 
     .vector{
+        margin:0;
         position: absolute;
         width: 29px;
         height: 30px;
@@ -937,5 +1014,101 @@ footer{
 
     .smart-overlay{
         display: block;
+        width: 390px;
+        height: 251px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    nav{
+        display: none;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .preTitle{
+        display: none;
+    }
+
+    .headDiv{
+        display: block;
+        position: absolute;
+        width: 390px;
+        height: 84.64px;
+        top: -43.54px;
+        left: -16px;
+        gap: 0px;
+        opacity: 0px;
+        background: #F2785CB2;
+        box-shadow: 0px 4px 4px 0px #0D606F80;
+    }
+
+    .line{
+        display: block;
+        position: absolute;
+        width: 35px;
+        height: 32px;
+        left: 319px;
+        /* padding: 8px 4.38px 8px 4.38px; */
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+
+    .steps, .frames{
+        position: absolute;
+        width: 360px;
+        height: 153px;
+        top: 271px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .step{
+       position: absolute;
+       width: 214px;
+       height: 19px;
+       /* top: 271px; */
+       left: 88px;
+       gap: 0px;
+       opacity: 0px;
+       font-family: 'Red Hat Text';
+       font-size: 14px;
+       font-weight: 500;
+       line-height: 18.52px;
+       text-align: left;          
+    }
+
+    .frame24{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 311px;
+        left: 15px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .frame25{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 310px;
+        left: 160px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+
+    .frame26{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 311px;
+        left: 305px;
+        gap: 0px;
+        opacity: 0px;        
     }
 }
