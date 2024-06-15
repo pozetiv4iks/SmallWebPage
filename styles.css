@@ -474,6 +474,7 @@ li{
     opacity: 0px;
     background: #F2785C80;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .ellipse2{
@@ -481,8 +482,9 @@ li{
     height: 20px;
     gap: 0px;
     opacity: 0px;
-    background: #F2785C;
+    background: #F2785C80;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .ellipse3{
@@ -492,6 +494,11 @@ li{
     opacity: 0px;
     background: #F2785C80;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+.ellipse1.active,.ellipse2.active,.ellipse3.active {
+    background: #F2785C;
 }
 
 .find{
@@ -1309,6 +1316,7 @@ footer{
         gap: 0px;
         opacity: 0px;
         z-index: 1;
+        cursor: pointer;
     }
 
     .right-arrow{
@@ -1321,6 +1329,7 @@ footer{
         gap: 0px;
         opacity: 0px;
         z-index: 1;
+        cursor: pointer;
     }
 
     .spain{
@@ -1351,7 +1360,7 @@ footer{
     }
 
     .ellipse1{
-        background: #F2785C;
+        background: #F2785C80;
     }
     
     .ellipse2{
