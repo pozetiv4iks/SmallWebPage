@@ -34,5 +34,5 @@ ellipses.forEach((ellipse, i) => {
     showDestination(currentDestinationIndex);
   });
 });
-
+console.log();
 showDestination(currentDestinationIndex);
