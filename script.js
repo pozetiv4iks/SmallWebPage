@@ -34,5 +34,5 @@ ellipses.forEach((ellipse, i) => {
     showDestination(currentDestinationIndex);
   });
 });
-console.log();
+console.log('Hello world');
 showDestination(currentDestinationIndex);
